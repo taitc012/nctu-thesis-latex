@@ -20,7 +20,7 @@ tar: ${BASE}.pdf
 #      tar jcf ${BASE}.tar.bz2 ${TARSOURCE}
 
 clean:
-	rm -f *.aux *.log *.lot *.out *.toc *.blg *.bbl *.lof *.xdv
+	rm -f *.aux *.log *.lot *.out *.toc *.blg *.bbl *.lof *.xdv thesis-blx.bib  thesis.run.xml
 
 clean-pdf: clean
 	rm *.pdf
